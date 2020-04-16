@@ -8,9 +8,6 @@ import org.telegram.telegrambots.ApiContextInitializer;
 @SpringBootApplication
 public class CityGuideApplication {
 
-	//todo: move to beanPostProcessor
-	//static {ApiContextInitializer.init();}
-
 	@Autowired
 	private static Bot bot;
 
